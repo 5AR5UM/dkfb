@@ -67,14 +67,14 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mWarna Sempak Kamu ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini,Dan Jangan Lupa,Tidak Ada Sistem Yg Aman !!")
 		time.sleep(1)
 		loginSC()
 		
